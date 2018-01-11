@@ -1,0 +1,4 @@
+run --file=./nuke-and-pave.gfsh
+connect
+stop server --name=ServerOne
+stop locator --name=LocatorOne

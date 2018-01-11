@@ -1,0 +1,2 @@
+run --file=./stop-cluster.gfsh
+run --file=./start-empty-cluster.gfsh

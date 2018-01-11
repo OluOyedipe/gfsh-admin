@@ -1,0 +1,7 @@
+run --file=./start-empty-cluster.gfsh
+create region --name=Customers --type=PARTITION --skip-if-exists
+list regions
+describe region --name=/Customers
+#describe member --name=ServerOne
+create index --name=CustomersNameHashIdx --expression="name" --region="/Customers" --type=hash
+list indexes
