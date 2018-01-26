@@ -1,4 +1,6 @@
 connect
 remove --region=/Customers --key=1 --key-class=java.lang.Long
 destroy region --name=/Customers
+destroy region --name=/Patients
 destroy index --name=CustomersNameHashIdx
+destroy index --name=PatientsNameHashIdx
